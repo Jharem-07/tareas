@@ -15,7 +15,7 @@ df_promedios["Promedio General"] = np.mean(datos, axis=(1,2)).round(2)
 
 # Guardar
 df_promedios.to_csv("promedios_temperaturas.csv")
-# (Opcional) crear detalle y guardarlo
+
 tuplas = []
 valores = []
 for i, ciudad in enumerate(ciudades):
